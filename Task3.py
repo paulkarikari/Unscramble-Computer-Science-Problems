@@ -49,7 +49,7 @@ def get_area_code(tel_number):
     if ')' in tel_number:
         return tel_number.split(')')[0].lstrip('(')
     if ' ' in tel_number:
-        return tel_number.split(' ')[0]
+        return tel_number[:4]
 
 
 called_from_bangalore = [get_area_code(reciever)
