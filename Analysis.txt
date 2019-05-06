@@ -1,0 +1,27 @@
+Task0
+------
+Get item for Python list is O(1) and all other the statements happens in constant time so the 
+the runtime for Task0 is O(1).
+
+Task1
+-----
+Task1 contains three major instructions that affects the runtime of the task, which are
+2 list comprehension and one union operation.
+The Order for one list comprehension is 0(n) resulting in 0(2n). since there is two list comprehensions
+but constant are ignore so the Order for Task1 is 0(n)
+
+Task2
+----
+The critical part for Task2 is the nested for loops. Also the outer loop decreases by one
+for each iteration. Therefore the Order might be considered as 0(n*(n-1)) but again constants
+are ignored since they have no major impact. Therefore the Order for Task2 is 0(n^2)
+
+Task3
+-----
+Task3 has 3 single loops and the Order can be considered as 0(3n) , ingoreing the constant
+the Order for task3 becomes 0(n)
+
+Task4
+-----
+
+Task4 has 2 single loops , Therefore the Order is 0(n)

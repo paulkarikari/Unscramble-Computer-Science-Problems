@@ -1,0 +1,6 @@
+.vscode/*
+calls.csv
+Pipfile
+Pipfile.lock
+texts.csv
+.DS_Store
