@@ -34,4 +34,6 @@ for caller, reciever, timestamp, duration in calls:
 
 template = "{} spent the longest time, {} seconds, on the phone during September 2016."
 
-print(template.format(*calls_dictionary))
+
+highest_duration = max(calls_dictionary.items(), key=lambda x: x[1])
+print(template.format(*highest_duration))
