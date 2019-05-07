@@ -12,16 +12,16 @@ but constant are ignore so the Order for Task1 is 0(n)
 
 Task2
 ----
-The critical part for Task2 is the nested for loops. Also the outer loop decreases by one
-for each iteration. Therefore the Order might be considered as 0(n*(n-1)) but again constants
-are ignored since they have no major impact. Therefore the Order for Task2 is 0(n^2)
+There is only one loop for in this task. Therefore is 0(n)
 
 Task3
 -----
-Task3 has 3 single loops and the Order can be considered as 0(3n) , ingoreing the constant
-the Order for task3 becomes 0(n)
+Task3 has 3 single loops and one sorting, the Order can be considered as 0(3n+nlogn) , 
+Taking only the highest term, the Order for task3 becomes 0(nlogn)
 
 Task4
 -----
 
-Task4 has 2 single loops , Therefore the Order is 0(n)
+Task4 has 2 single loops and one sorting statement, 
+The runtime can be considered as 0(n+n+nlogn) .ie 0(2n+nlogn)
+The highest term which is 'nlogn' is considered. Therefore the Order is 0(nlogn)
